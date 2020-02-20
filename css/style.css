@@ -9,8 +9,48 @@
 .log {
   background-color: #f5f8fa;
   border-bottom: 1px solid #cbd6e2;
-  height: 60px;
+  height: 80px;
   width: 100%;
+  position: fixed;
+  top: 0;
+  padding-left: 25px;
+}
+
+.logsx {
+  float: left;
+  padding-left: 80px;
+}
+
+.logsx a {
+  padding: 31px 30px;
+  color: #33475b;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#bordare {
+  border-right: 2px solid #cbd6e2;
+}
+
+.logdx {
+  float: right;
+  margin-top: 30px;
+  margin-right: 85px;
+}
+
+#cip {
+  color: #ff7a59;
+  background-color: white;
+  border: 1px solid #ff7a59;
+  padding: 12px 22px;
+  margin-right: 10px;
+  margin-left: 15px;
+}
+
+#ciop {
+  color: white;
+  background-color: #ff7a59;
+  padding: 12px 12px;
 }
 
 /* FINE DIVLOG */
@@ -18,8 +58,8 @@
 /* INIZIO NAVBAR */
 
 .navbar {
-  height: 70px;
-  margin-top: 1px;
+  height: 90px;
+  margin-top: 80px;
 }
 
 .navbar ul {
@@ -34,21 +74,55 @@
   float: right;
 }
 
+.loghino {
+  padding: 25px 80px;
+}
+
+.lnavbar ul{
+  float: left;
+  padding-left: 30px;
+}
+
 /* FINE NAVBAR */
 
 /* INIZIO JUMBODJANGO */
 
 .jumbodjango {
-  background-image: url(../img/jumbocoso.png);
-  height: 556px;
+  background-image: url(../img/jumbotron.png);
+  height: 693.5px;
 }
 
 .jumbotesto {
+  padding: 30px 100px;
   height: 300px;
-  width: 300px;
-  background-color: yellow;
+  width: 570px;
+  /* background-color: yellow; */
 }
 
+.jumbotesto {
+  color: #33475b;
+}
+
+.jumbotesto h1 {
+  font-size: 3.5em;
+  margin-bottom: 30px;
+}
+
+.jumbotesto h4 {
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+
+.jumbotesto a {
+  color: white;
+  background-color: #ff7a59;
+  padding: 25px 35px;
+  text-decoration: none;
+}
+
+.jumbotesto p {
+  margin-top: 40px;
+}
 /* FINE JUMBODJANGO */
 /* FINE HEADER */
 
