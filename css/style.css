@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* INIZIO DIVLOG */
+
+.log {
+  background-color: #f5f8fa;
+  border-bottom: 1px solid #cbd6e2;
+  height: 60px;
+}
+
+/* FINE DIVLOG */
+
+/* INIZIO NAVBAR */
+
+.navbar {
+  height: 70px;
+}
+
+/* FINE NAVBAR */
+
+/* INIZIO JUMBODJANGO */
+
+.jumbodjango {
+  background-image: url(../img/jumbocoso.png);
+  height: 556px;
+}
+
+/* FINE JUMBODJANGO */
+/* FINE HEADER */
+
+/* INIZIO MAIN */
+
+/* INIZIO DIVGROSSO */
+
+.grosso {
+  height: 1290px;
+  background-color: purple;
+}
+
+.cubo {
+  width: 350px;
+  height: 350px;
+  background-color: lime;
+}
+
+.steso {
+  width: 770px;
+  height: 200px;
+  background-color: yellow;
+}
+
+.stendardo {
+  width: 180px;
+  height: 420px;
+  background-color: orange;
+  float: left;
+  border: black 1px solid;
+}
+
+/* FINE DIVGROSSO */
+
+/* INZIO QUADRO */
+
+.quadro {
+  height: 700px;
+  background-color: cyan;
+}
+
+/* FINE QUADRO */
+
+/* INZIO DIVPICCOLO */
+
+.piccolo {
+  height: 750px;
+}
+
+/* FINE DIVPICCOLO */
+
+/* INIZIO FOOTER */
+
+footer {
+  height: 480px;
+  background-color: #33475b;
+}
+
+/* FINE FOOTER */
