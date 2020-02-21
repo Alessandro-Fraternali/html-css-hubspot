@@ -138,7 +138,7 @@
 /* INIZIO DIVGROSSO */
 
 .grosso {
-  height: 1290px;
+  height: 1500px;
   background-color: #f5f8fa;
 }
 
@@ -148,6 +148,8 @@
   margin: auto;
   color: #33475b;
 }
+
+/* INIZIO CUBO */
 
 .cubo img {
   padding-top: 50px;
@@ -167,19 +169,60 @@
   font-weight: lighter;
 }
 
+/* FINE CUBO */
+
+/* INIZIO DIV MOSCHETTIERI */
+
+.moschettieri {
+  margin: auto;
+}
+
 .steso {
-  width: 770px;
-  height: 200px;
-  background-color: yellow;
+  width: 1100px;
+  height: 300px;
+  background-color: white;
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 10px;
+}
+
+.imglibro img {
+  height: 190px;
+  padding: 20px 80px;
+}
+
+.imglibro a {
+  padding: 18px 30px;
+  background-color: #ff7a59;
+  color: white;
+  text-decoration: none;
+}
+
+.scrittelibro {
+  width: 200px;
+  float: right;
+}
+
+.stendardi {
+  width: 1200px;
+  clear: both;
+  margin: auto;
 }
 
 .stendardo {
-  width: 180px;
-  height: 420px;
+  width: 333px;
+  height: 630px;
   background-color: orange;
-  float: left;
   border: black 1px solid;
+  float: left;
+  margin-right: 50px;
 }
+
+.clearfix {
+  clear: both;
+}
+
+/* FINE DIV MOSCHETTIERI */
 
 /* FINE DIVGROSSO */
 
