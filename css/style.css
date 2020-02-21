@@ -197,27 +197,23 @@ a {
 .imglibro img {
   height: 190px;
   padding: 20px 80px;
+  float: left;
 }
 
 .imglibro a {
-  padding: 18px 30px;
+  padding: 12px 30px;
   background-color: #ff7a59;
   color: white;
-  position: absolute;
-  bottom: -900px;
-  left: 240px;
+  float: left;
 }
 
 .scrittelibro {
   width: 200px;
   float: right;
-  margin-top: -150px;
   margin-bottom: 90px;
-}
-
-.scrittelibro {
   color: #33475b;
   width: 700px;
+  float: left;
 }
 
 .scrittelibro h4 {
