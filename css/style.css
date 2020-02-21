@@ -173,8 +173,15 @@
 
 /* INIZIO DIV MOSCHETTIERI */
 
+/* INIZIO DIV STESO */
+
 .moschettieri {
   margin: auto;
+
+}
+
+.moschettieri ul {
+ list-style-image: url(../img/listino.png);
 }
 
 .steso {
@@ -196,12 +203,51 @@
   background-color: #ff7a59;
   color: white;
   text-decoration: none;
+  position: absolute;
+  bottom: -900px;
+  left: 240px;
 }
 
 .scrittelibro {
   width: 200px;
   float: right;
+  margin-top: -150px;
+  margin-bottom: 90px;
 }
+
+.scrittelibro {
+  color: #33475b;
+  width: 700px;
+}
+
+.scrittelibro h4 {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.scrittelibro p {
+  margin-bottom: 35px;
+}
+
+.scrittelibro hr {
+position: relative;
+top: -45px;
+left: 180px;
+width: 480px;
+}
+
+.scrittelibro li {
+  margin-bottom: 35px;
+  display: inline-block;
+  margin-right: 15px;
+  list-style-image: none;
+  list-style-type: none;
+
+}
+
+/* FINE DIV STESO */
+
+/* INIZIO STENDARDI */
 
 .stendardi {
   width: 1200px;
@@ -218,9 +264,8 @@
   margin-right: 50px;
 }
 
-.clearfix {
-  clear: both;
-}
+
+/* FINE STENDARDI  */
 
 /* FINE DIV MOSCHETTIERI */
 
