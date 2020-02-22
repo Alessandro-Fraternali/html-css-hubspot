@@ -318,6 +318,7 @@ width: 480px;
   background-image: linear-gradient(45deg, #00A4BD, #00BDA5);
   margin: auto;
   color: white;
+  padding-left: 100px;
 }
 
 .quadro p {
@@ -423,32 +424,74 @@ width: 480px;
 
 /* INZIO DIVPICCOLO */
 
-.piccolo {
-  height: 750px;
+.piccolo1 {
+  padding-top: 80px;
+  color: #33475b;
+  margin:auto;
+  width: 800px;
 }
 
-.clienti {
-  background-color: pink;
-  height: 200px;
-  width: 200px;
+.nc {
+  float: left;
+}
+
+.numerone {
+  font-size: 26px;
+  margin-bottom: 5px;
+}
+
+.customers {
+  font-size: 18px;
+  line-height: 20px;
+  width: 260px
 }
 
 .marche {
-  background-color: green;
-  width: 400px;
-  height: 100px;
+  float: right;
 }
 
-.marketing {
+.piccolo2 {
+  padding-top: 100px;
+  clear: both;
+  color: #33475b;
+  width: 750px;
+  margin: auto;
+}
+
+.piccolo2 h2 {
+  font-size: 25px;
   width: 350px;
-  height: 350px;
-  background-color: cyan;
+  margin-bottom: 20px;
 }
 
-.facciona {
-  width: 250px;
-  height: 250px;
-  background-color: brown;
+.piccolo2 p {
+  font-size: 16px;
+  width: 300px;
+  margin-bottom: 35px;
+}
+
+.piccolo2 a {
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+  background-color: #ff7a59;
+  padding: 10px 15px;
+}
+
+.piccolo2 h4 {
+  margin-top: 20px;
+  font-size: 10px;
+  width: 300px;
+  font-weight: lighter;
+}
+
+.piccolo2testi {
+  float: left;
+}
+
+.piccolo2img img{
+  height: 300px;
+  float: right;
 }
 
 /* FINE DIVPICCOLO */
