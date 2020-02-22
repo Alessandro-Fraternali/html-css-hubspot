@@ -315,26 +315,108 @@ width: 480px;
 /* INZIO QUADRO */
 
 .quadro {
-  height: 700px;
-  background-color: cyan;
+  background-image: linear-gradient(45deg, #00A4BD, #00BDA5);
+  margin: auto;
+  color: white;
+}
+
+.quadro p {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 33px;
 }
 
 .intquadro {
-  height: 80px;
-  width: 800px;
-  background-color: pink;
+  margin: auto;
+  font-size: 20px;
+  width: 620px;
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 110px;
+  margin-bottom: 20px;
 }
 
 .parquadro {
   height: 55px;
   width: 850px;
-  background-color: lime;
+  margin: auto;
 }
 
-.robequadro {
-  height: 300px;
-  width: 800px;
-  background: red;
+.quadrivari {
+  height: 600px;
+  width: 1200px;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.quadrino {
+  height: 190px;
+  width: 270px;
+}
+
+.quadrino img {
+  display: block;
+  margin: auto;
+}
+
+.giga {
+  font-size: 40px;
+  font-weight: bolder;
+  text-align: center;
+  margin: auto;
+}
+
+.mini {
+  font-size: 20px;
+  text-align: center;
+}
+
+#primo {
+  border-bottom: 1px white solid;
+  border-right: 1px white solid;
+  display: inline-block;
+}
+
+#secondo {
+  margin-top: 40px;
+  border-bottom: 1px white solid;
+  border-right: 1px white solid;
+  display: inline-block;
+}
+
+#terzo {
+  border-bottom: 1px white solid;
+  border-right: 1px white solid;
+  display: inline-block;
+}
+
+#quarto {
+  display: inline-block;
+}
+
+#quinto {
+  padding-top: 40px;
+  border-right: 1px white solid;
+  display: inline-block;
+}
+
+#sesto {
+  padding-top: 20px;
+  border-right: 1px white solid;
+  display: inline-block;
+}
+
+#settimo {
+  padding-top: 40px;
+  border-right: 1px white solid;
+  display: inline-block;
+}
+
+#ottavo{
+  padding-top: 50px;
+  border-top: 1px white solid;
+  display: inline-block;
 }
 
 /* FINE QUADRO */
