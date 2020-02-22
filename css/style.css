@@ -492,6 +492,7 @@ width: 480px;
 .piccolo2img img{
   height: 300px;
   float: right;
+  margin-bottom: 100px;
 }
 
 /* FINE DIVPICCOLO */
@@ -499,28 +500,101 @@ width: 480px;
 /* INIZIO FOOTER */
 
 footer {
-  height: 480px;
+  height: 620px;
   background-color: #33475b;
   clear: both;
+  color: #cbd6e2;
+}
+
+footer a {
+  text-decoration: none;
+  color: #cbd6e2;
+  font-weight: bold;
+}
+
+footer hr {
+  width: 1000px;
+  margin: auto;
+  margin-bottom: 40px;
 }
 
 .prefooter {
-  background-color: orange;
+  padding: 50px 210px;
 }
 
 .avengers {
   width: 230px;
   height: 300px;
-  background-color: cyan;
   float: left;
-  border: 1px black solid;
 }
 
-.credits {
+.avengers h3 {
+  color: white;
+  font-size: 16px;
+}
+
+.avengers ul {
+  margin-top: 20px;
+  list-style-type: none;
+}
+
+.avengers li:not(#chs) {
+  margin-bottom: 20px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+#chs {
+  margin-bottom: 40px;
+  color: white;
+}
+
+.avengers a {
+  background-color: white;
+  padding: 12px 10px;
+  color: #33475b;
+}
+
+.linguepag {
   clear: both;
 }
 
-. {
+#icone li{
+  margin-left: 5px;
+  display: inline-block;
+}
+
+.linguepag {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+.linguepag li {
+  font-weight: bolder;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.logohub2 {
+  margin: auto;
+  width: 1000px
+}
+
+.credits {
+  margin: auto;
+}
+
+.privacy ul {
+  list-style-type: none;
+  padding-right: 180px;
+}
+
+.privacy li {
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 14px;
+  float: right;
 }
 
 /* FINE FOOTER */
