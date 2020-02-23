@@ -6,6 +6,8 @@
 
 a {
   text-decoration: none;
+  border-radius: .1875rem;
+  font-weight: bold;
 }
 
 /* INIZIO DIVLOG */
@@ -194,26 +196,31 @@ a {
   margin-bottom: 10px;
 }
 
+.imglibro {
+  float: left;
+}
+
 .imglibro img {
   height: 190px;
   padding: 20px 80px;
-  float: left;
+  display: block;
+  margin-bottom: 40px;
 }
 
 .imglibro a {
   padding: 12px 30px;
   background-color: #ff7a59;
   color: white;
-  float: left;
+  margin-left: 100px;
 }
 
 .scrittelibro {
   width: 200px;
-  float: right;
   margin-bottom: 90px;
   color: #33475b;
   width: 700px;
-  float: left;
+  float: right;
+  margin-top: 50px;
 }
 
 .scrittelibro h4 {
@@ -277,7 +284,7 @@ width: 480px;
   text-align: center;
   line-height: 22px;
   margin-bottom: 20px;
-  width: 300px;
+  width: 250px;
   margin: auto;
 }
 
@@ -560,7 +567,8 @@ footer hr {
 }
 
 #icone li{
-  margin-left: 5px;
+  margin-top: 10px;
+  margin-right: 15px;
   display: inline-block;
 }
 
@@ -574,6 +582,7 @@ footer hr {
   font-weight: bolder;
   display: inline-block;
   margin-left: 20px;
+  font-size: 20px;
 }
 
 .logohub2 {
